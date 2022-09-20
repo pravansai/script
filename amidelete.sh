@@ -1,7 +1,7 @@
 #!/bin/bash  
  #Script to delete ami with attached snapshots.  
- echo -e "$1" > /root/imageid.txt  
- for i in `cat /root/imageid.txt`;do aws ec2 describe-images --image-ids $i | grep snap | awk '{print $2}' | cut -d "\"" -f2 > /tmp/snap.txt;  
+ echo -e "$1" > /tmp/imageid.txt  
+ for i in `cat /tmp/imageid.txt`;do aws ec2 describe-images --image-ids $i | grep snap | awk '{print $2}' | cut -d "\"" -f2 > /tmp/snap.txt;  
  echo -e "Following are the snapshots associated with it :\n`cat /tmp/snap.txt`\n ";  
  echo -e "Starting the Deregister of AMI... \n";  
  #Deregistering the AMI  
