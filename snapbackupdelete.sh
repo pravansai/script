@@ -17,9 +17,9 @@ fi
 
 function backup_ebs () {
 
-        prod_instances=`aws ec2 describe-instances --filters "Name=tag-value,Values=prod*" | jq -r ".Reservations[].Instances[].InstanceId"`
+        prod_instances=`aws ec2 describe-instances --filters "Name=tag-value,Values=instancename*" | jq -r ".Reservations[].Instances[].InstanceId"`
 
-        for instance in $prod_instances
+        for instance in $instancename_instances
         do
 
                 volumes=`aws ec2 describe-volumes --filter Name=attachment.instance-id,Values=$instance | jq .Volumes[].VolumeId | sed 's/\"//g'`
