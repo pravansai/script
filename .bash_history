@@ -520,3 +520,64 @@ git config --list
 git config -list
 git config --global-edit
 git push origin master
+git remote
+git remote -v
+git config --global-edit
+git config --global--edit
+git config --global --edit
+git push origin master
+history
+git add ll.sh 
+git commit -m "second"
+ls
+git status
+git add .
+git status
+git commit -m "script"
+git push origin master
+git status
+git push origin main
+git --config
+ls
+pwd
+git branch
+git checkout main
+git branch jeep
+git checkout jeep
+git status
+git push origin jeep
+sysemctl start jenkins
+systemctl start jenkins
+ps _ef | grep jenkins
+ps -ef | grep jenkins
+systemctl status jenkins
+ten.sh
+vi ten.sh
+chmod 777 ten.sh
+./ten.sh backup
+./ten.sh delete
+./ten.sh backup
+./ten.sh delete
+./ten.sh backup snapshotdelete
+./ten.sh delete
+./ten.sh snapshotdelete
+vi ten.sh
+./ten.sh backup
+./ten.sh delete
+./ten.sh snapshotdelete
+vi ten.sh 
+./ten.sh backup
+./ten.sh delete
+./ten.sh snapshotdelete
+vi ten.sh 
+./ten.sh backup
+./ten.sh delete
+./ten.sh snapshotdelete
+vi ten.sh 
+./ten.sh backup
+./ten.sh backup.
+./ten.sh delete
+./ten.sh snapshotdelete
+aws ec2 describe-snapshots --filters Name=description,Values=ami-backup-script | jq .Snapshots[].SnapshotId | sed 's/\"//g'
+./ten.sh backup.
+./ten.sh backup

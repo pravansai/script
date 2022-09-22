@@ -12,9 +12,11 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1663846263,,"wq"
+|2,0,1663856455,,"wq"
 :q!
-|2,0,1663837282,,"q!"
+|2,0,1663856341,,"q!"
+:Q!
+|2,0,1663856333,,"Q!"
 :wq!
 |2,0,1663830685,,"wq!"
 
@@ -59,230 +61,250 @@
 |3,0,36,0,1,0,1663829238,"c"
 
 # File marks:
-'0  1  0  ~/.gitconfig
-|4,48,1,0,1663846263,"~/.gitconfig"
-'1  92  0  ~/ll.sh
-|4,49,92,0,1663844425,"~/ll.sh"
-'2  73  0  ~/new.sh
-|4,50,73,0,1663837306,"~/new.sh"
-'3  1  10  ~/instancecreation.sh
-|4,51,1,10,1663837282,"~/instancecreation.sh"
-'4  22  36  ~/snapbackupdelete.sh
-|4,52,22,36,1663836192,"~/snapbackupdelete.sh"
-'5  52  0  ~/amicreationdelete.sh
-|4,53,52,0,1663836171,"~/amicreationdelete.sh"
-'6  52  9  ~/amicreationdelete.sh
-|4,54,52,9,1663836041,"~/amicreationdelete.sh"
-'7  22  36  ~/snapbackupdelete.sh
-|4,55,22,36,1663834836,"~/snapbackupdelete.sh"
-'8  79  0  ~/amicreationdelete.sh
-|4,56,79,0,1663833534,"~/amicreationdelete.sh"
-'9  56  0  ~/amicreationdelete.sh
-|4,57,56,0,1663833534,"~/amicreationdelete.sh"
+'0  87  0  ~/code.sh
+|4,48,87,0,1663856455,"~/code.sh"
+'1  65  0  ~/ten.sh
+|4,49,65,0,1663856341,"~/ten.sh"
+'2  71  33  ~/ten.sh
+|4,50,71,33,1663854417,"~/ten.sh"
+'3  71  33  ~/ten.sh
+|4,51,71,33,1663854417,"~/ten.sh"
+'4  69  83  ~/ten.sh
+|4,52,69,83,1663854316,"~/ten.sh"
+'5  69  83  ~/ten.sh
+|4,53,69,83,1663854316,"~/ten.sh"
+'6  69  83  ~/ten.sh
+|4,54,69,83,1663854316,"~/ten.sh"
+'7  69  83  ~/ten.sh
+|4,55,69,83,1663854316,"~/ten.sh"
+'8  79  0  ~/ten.sh
+|4,56,79,0,1663854044,"~/ten.sh"
+'9  79  0  ~/ten.sh
+|4,57,79,0,1663854044,"~/ten.sh"
 
 # Jumplist (newest first):
+-'  87  0  ~/code.sh
+|4,39,87,0,1663856455,"~/code.sh"
+-'  1  0  ~/code.sh
+|4,39,1,0,1663856372,"~/code.sh"
+-'  65  0  ~/ten.sh
+|4,39,65,0,1663856341,"~/ten.sh"
+-'  65  0  ~/ten.sh
+|4,39,65,0,1663856341,"~/ten.sh"
+-'  71  33  ~/ten.sh
+|4,39,71,33,1663856220,"~/ten.sh"
+-'  71  33  ~/ten.sh
+|4,39,71,33,1663856220,"~/ten.sh"
+-'  71  33  ~/ten.sh
+|4,39,71,33,1663854417,"~/ten.sh"
+-'  71  33  ~/ten.sh
+|4,39,71,33,1663854417,"~/ten.sh"
+-'  69  83  ~/ten.sh
+|4,39,69,83,1663854370,"~/ten.sh"
+-'  69  83  ~/ten.sh
+|4,39,69,83,1663854370,"~/ten.sh"
+-'  69  83  ~/ten.sh
+|4,39,69,83,1663854370,"~/ten.sh"
+-'  69  83  ~/ten.sh
+|4,39,69,83,1663854370,"~/ten.sh"
+-'  69  83  ~/ten.sh
+|4,39,69,83,1663854316,"~/ten.sh"
+-'  69  83  ~/ten.sh
+|4,39,69,83,1663854316,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854239,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854239,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854239,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854239,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854239,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854239,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854044,"~/ten.sh"
+-'  79  0  ~/ten.sh
+|4,39,79,0,1663854044,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  67  98  ~/ten.sh
+|4,39,67,98,1663853993,"~/ten.sh"
+-'  69  69  ~/ten.sh
+|4,39,69,69,1663853473,"~/ten.sh"
+-'  69  69  ~/ten.sh
+|4,39,69,69,1663853473,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853428,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853426,"~/ten.sh"
+-'  70  0  ~/ten.sh
+|4,39,70,0,1663853426,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  111  0  ~/ten.sh
+|4,39,111,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663853384,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  110  0  ~/ten.sh
+|4,39,110,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  109  0  ~/ten.sh
+|4,39,109,0,1663852790,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
+-'  1  0  ~/ten.sh
+|4,39,1,0,1663852778,"~/ten.sh"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1663846263,"~/.gitconfig"
--'  92  0  ~/ll.sh
-|4,39,92,0,1663844425,"~/ll.sh"
--'  92  0  ~/ll.sh
-|4,39,92,0,1663844425,"~/ll.sh"
--'  1  0  ~/ll.sh
-|4,39,1,0,1663844407,"~/ll.sh"
--'  1  0  ~/ll.sh
-|4,39,1,0,1663844407,"~/ll.sh"
--'  73  0  ~/new.sh
-|4,39,73,0,1663837306,"~/new.sh"
--'  73  0  ~/new.sh
-|4,39,73,0,1663837306,"~/new.sh"
--'  73  0  ~/new.sh
-|4,39,73,0,1663837306,"~/new.sh"
--'  73  0  ~/new.sh
-|4,39,73,0,1663837306,"~/new.sh"
--'  1  0  ~/new.sh
-|4,39,1,0,1663837288,"~/new.sh"
--'  1  0  ~/new.sh
-|4,39,1,0,1663837288,"~/new.sh"
--'  1  0  ~/new.sh
-|4,39,1,0,1663837288,"~/new.sh"
--'  1  0  ~/new.sh
-|4,39,1,0,1663837288,"~/new.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  1  10  ~/instancecreation.sh
-|4,39,1,10,1663837282,"~/instancecreation.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  22  36  ~/snapbackupdelete.sh
-|4,39,22,36,1663836192,"~/snapbackupdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  0  ~/amicreationdelete.sh
-|4,39,52,0,1663836171,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
--'  52  9  ~/amicreationdelete.sh
-|4,39,52,9,1663836041,"~/amicreationdelete.sh"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1663846263,"~/.gitconfig"
 
 # History of marks within files (newest to oldest):
+
+> ~/code.sh
+	*	1663856454	0
+	"	87	0
+	^	87	0
+	.	88	0
+	+	65	0
+	+	88	0
+
+> ~/ten.sh
+	*	1663856335	0
+	"	65	0
+	^	71	34
+	.	71	33
+	+	110	0
+	+	67	172
+	+	67	98
+	+	78	1
+	+	69	16
+	+	71	33
 
 > ~/.gitconfig
 	*	1663846261	0
@@ -450,25 +472,3 @@
 	+	2	53
 	+	3	0
 	+	4	0
-
-> ~/script2.sh
-	*	1663620827	0
-	"	5	30
-	^	5	31
-	.	5	30
-	+	12	1
-	+	1	10
-	+	5	30
-	+	7	54
-	+	8	53
-	+	7	54
-	+	5	30
-
-> ~/script1.sh
-	*	1663619387	0
-	"	2	74
-	^	2	75
-	.	2	74
-	+	1	107
-	+	1	10
-	+	2	74
