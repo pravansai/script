@@ -1,0 +1,56 @@
+#!/bin/bash
+
+ACTION=$1
+DATE=$(date +%Y-%m-%d_%H-%M)
+AMI_NAME="Image Backup - $DATE"
+AMI_DESCRIPTION="ami-backup-script"
+
+if [ -z $ACTION ];
+then
+echo "Usage $1: Define ACTION of backup or delete"
+exit 1
+fi
+
+function backup_ami () {
+
+        prod_instances=`aws ec2 describe-instances --filters "Name=tag-value,Values=prod*" | jq -r ".Reservations[].Instances[].InstanceId"`
+
+        for instance in $prod_instances
+        do
+            echo "Requesting AMI for instance $instance...\n"
+            echo Creating ami for $instance $(aws ec2 create-image --instance-id $instance --name "$AMI_NAME" --description "$AMI_DESCRIPTION" --no-reboot)
+        done
+        if [ $? -eq 0 ]; then
+        printf "AMI request complete!\n"
+        fi
+}
+
+function delete_ami () {
+        ami_list=`aws ec2 describe-images --filters Name=description,Values=ami-backup-script | jq .Images[].ImageId | sed 's/\"//g'`
+        for ami in $ami_list
+        do
+            echo "Deleting ami : $ami"
+            aws ec2 deregister-image --image-id $ami
+            echo "Sucessfully Deleted ami : $ami"
+        done
+        if [ $? -eq 0 ]; then
+        printf "AMI deletion complete!\n"
+        fi
+}
+
+case $ACTION in
+
+"backup")
+backup_ami
+;;
+
+"delete")
+delete_ami
+;;
+
+esac
+
+
+
+
+
